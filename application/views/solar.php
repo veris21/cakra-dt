@@ -15,13 +15,33 @@
                         <button class="btn btn-primary btn-sm my-0 p" type="button" onclick="add_kfsolar()">
                             <i class="fa fa-plus"></i> Koef. Solar
                         </button>
+                       
+                    </div>
+                </div>
+        </div>
+        <hr>
+        <div class="card mb-4 wow fadeIn">
+                <!--Card content-->
+                <div class="card-body d-sm-flex justify-content-between">
+                    <h4 class="mb-2 mb-sm-0 pt-1">
+                        <!-- <a href="#" target="_blank">Home</a>
+                        <span>/</span>
+                        <span>Data Pemakaian Solar</span> -->
+                    </h4>
+                    <div class="d-flex justify-content-center">
+                       
                         <!-- Default input -->
                         <button class="btn btn-success btn-sm my-0 p" type="button" onclick="export_data_solar()">
-                            <i class="fa fa-table"></i> Export Tabel Solar
+                            <i class="fa fa-table"></i> Export Data
+                        </button>
+                         <!-- Default input -->
+                         <button class="btn btn-secondary btn-sm my-0 p" type="button" onclick="form_import_data_solar()">
+                            <i class="fa fa-table"></i> Import Data
                         </button>
                     </div>
                 </div>
         </div>
+        <hr>
         <div class="row">
             <!--  -->
             <!--  -->

@@ -14,7 +14,7 @@
                         <button class="btn btn-sm btn-danger btn-sm my-0 p" type="button" onclick="rm_data()">
                                 <i class="fa fa-trash"></i> Reset data
                             </button>
-                        <button class="btn btn-sm btn-secondary btn-lg my-0 p" type="button" onclick="add_dt()">
+                        <button class="btn btn-sm btn-primary btn-lg my-0 p" type="button" onclick="add_dt()">
                             <i class="fa fa-plus"></i> Record DT
                         </button>
                     </div>
@@ -31,10 +31,10 @@
                     <div class="d-flex justify-content-center">
                         
                         <!-- Default input -->
-                        <button class="btn btn-sm btn-primary btn-sm my-0 p" type="button" onclick="export_dt()">
+                        <button class="btn btn-sm btn-success btn-sm my-0 p" type="button" onclick="export_dt()">
                             <i class="fa fa-print"></i> Export data
                         </button>
-                        <button class="btn btn-sm btn-success btn-lg my-0 p" type="button" onclick="form_import_dt()">
+                        <button class="btn btn-sm btn-secondary btn-lg my-0 p" type="button" onclick="form_import_dt()">
                             <i class="fa fa-upload"></i> Import Data
                         </button>
                     </div>

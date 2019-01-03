@@ -588,6 +588,11 @@ $('#select3').select2();
 
         }
 
+        function form_import_data_solar(){
+            $('#form_import_solar')[0].reset();
+            $('#import_table_solar').modal('show');
+        }
+
         function import_excel(){
             $('#form_import_dt')[0].reset();
         }

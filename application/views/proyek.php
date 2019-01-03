@@ -24,10 +24,11 @@
                 <table style="width:100%" class="display table table-bordered table-sm table-striped table-responsive-sm" id="proyek">
                 <thead align="center">
                     <tr>
-                        <th>No.</th>
+                        <th>#</th>
                         <th>Jangka</th>
                         <th>Pos</th>
                         <th>Keterangan</th>
+                        <th>ID / Kode</th>
                         <th width="120">#</th>
                     </tr>
                 </thead>
@@ -46,6 +47,8 @@
                             echo ($data->status==1? '<button class="btn waves-effect btn-sm btn-block btn-outline-success" >Finish</button>' : '<button class="btn waves-effect btn-sm btn-block btn-outline-warning" >On Progress</button>');
                             ?>
                         </td>
+                        <td align="center" class="jm" ><?php 
+                            echo $data->id;?></td>
                         <td align="center">
                         <?php if($data->status==0){ ?>
                         <button class="btn waves-effect btn-sm btn-outline-secondary" onclick="finish_proyek(<?php echo $data->id ?>)"><i class="fa fa-check"></i> Finish</button>

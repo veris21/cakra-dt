@@ -8,6 +8,72 @@ span {
 } */
 </style>
 
+<?php if($this->uri->segment(1)=='solar'){
+?>
+
+<!-- Side Modal Top Right Success-->
+<div class="modal text-monospace fade right" id="import_table_solar" tabindex="1" role="dialog"
+    aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
+    <div class="modal-dialog modal-side modal-top-right modal-notify modal-success" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <p class="heading lead">Import File Excel Input Solar</p>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="white-text">&times;</span>
+                </button>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+                <div class="text-center">
+                    <i class="fa fa-table fa-4x mb-3 animated rotateIn"></i>
+                </div>
+                <!-- Form -->
+                <?php echo form_open_multipart('', array('id'=>'form_import_solar'));?>           
+                <div class="md-form form-sm">
+                <input type="text" name="nama_file" id="nama_file" class="form-control form-control-sm" >
+                <label for="nama_file">Nama File</label>
+                </div>
+                <!--  -->
+                
+                <div class="md-form form-sm" style="padding:0px;">
+                <p class="label">
+                Import File Format Excel (.xlsx)
+                </p>
+                </div>
+
+                <div class="md-form form-sm" style="padding:0px;">
+                <input type="file" name="excel_dt" id="excel" class="form-control form-control-sm" placeholder="file .xlsx">
+                </div>
+                </form>
+                <!--  -->
+            </div>
+
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+                <a role="button" class="btn btn-sm btn-outline-success waves-effect" onclick="import_excel()">Import Data
+                    <i class="fa fa-upload"></i>
+                </a>
+                <a role="button" class="btn btn-sm btn-outline-warning waves-effect" data-dismiss="modal">No,
+                    thanks</a>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!-- Side Modal Top Right Success-->
+
+<?php
+
+
+
+
+
+} ?>
+
+
 <?php if($this->uri->segment(1)=='payroll'){?>
 <!-- --> 
 <div class="modal text-monospace fade right" id="export_payroll" role="dialog"
