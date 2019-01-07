@@ -1,17 +1,17 @@
     <!-- SCRIPTS -->
     <!-- JQuery -->
-    <script type="text/javascript" src="<?php echo site_url().'application/assets/js/jquery-3.3.1.min.js';?>"></script>
+    <script type="text/javascript" src="<?php echo site_url().ASSETS.'js/jquery-3.3.1.min.js';?>"></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="<?php echo site_url().'application/assets/js/popper.min.js';?>"></script>
+    <script type="text/javascript" src="<?php echo site_url().ASSETS.'js/popper.min.js';?>"></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="<?php echo site_url().'application/assets/js/bootstrap.js';?>"></script>
+    <script type="text/javascript" src="<?php echo site_url().ASSETS.'js/bootstrap.js';?>"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="<?php echo site_url().'application/assets/js/mdb.js';?>"></script>
-    <script type="text/javascript" src="<?php echo site_url().'application/assets/js/moment.min.js';?>"></script>
-    <script type="text/javascript" src="<?php echo site_url().'application/assets/js/addons/datatables.js';?>"></script>
-    <script type="text/javascript" src="<?php echo site_url().'application/assets/js/addons/select2.min.js';?>"></script>
-    <script type="text/javascript" src="<?php echo site_url().'application/assets/js/gigjo.min.js';?>"></script>
-    <script type="text/javascript" src="<?php //echo site_url().'application/assets/js/addons/bootstrap-datetimepicker.min.js';?>"></script>
+    <script type="text/javascript" src="<?php echo site_url().ASSETS.'js/mdb.js';?>"></script>
+    <script type="text/javascript" src="<?php echo site_url().ASSETS.'js/moment.min.js';?>"></script>
+    <script type="text/javascript" src="<?php echo site_url().ASSETS.'js/addons/datatables.js';?>"></script>
+    <script type="text/javascript" src="<?php echo site_url().ASSETS.'js/addons/select2.min.js';?>"></script>
+    <script type="text/javascript" src="<?php echo site_url().ASSETS.'js/gigjo.min.js';?>"></script>
+    <script type="text/javascript" src="<?php //echo site_url().ASSETS.'js/addons/bootstrap-datetimepicker.min.js';?>"></script>
     <!-- Initializations -->
     <script type="text/javascript">
     var isOnline = window.navigator.onLine;
